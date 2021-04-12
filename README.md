@@ -35,7 +35,7 @@ Scoop is a command-line installer for Windows.
 
 And here is the way to get installed in some country which is not easy to visit github.com.
 
-I’ve altered some code, **just follow the installation guidance provided below**.
+I’ve altered some code, **just follow the [installation guidance](#Installation) provided below**.
 
 ## What does Scoop do?
 
@@ -65,12 +65,12 @@ If you've built software that you'd like others to use, Scoop is an alternative 
 - [PowerShell 5](https://aka.ms/wmf5download) (or later, include [PowerShell Core](https://docs.microsoft.com/en-us/powershell/scripting/install/installing-powershell-core-on-windows?view=powershell-6)) and [.NET Framework 4.5](https://www.microsoft.com/net/download) (or later)
 - PowerShell must be enabled for your user account e.g. `Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser`
 
-## Installation
+## <span id = “Installation">Installation</span>
 
 **Run the following command from your PowerShell to install scoop to its default location** (`C:\Users\<user>\scoop`)
 
 ```powershell
-Invoke-Expression (New-Object System.Net.WebClient).DownloadString('https://raw.fastgit.org/lukesampson/scoop/master/bin/install.ps1')
+Invoke-Expression (New-Object System.Net.WebClient).DownloadString('https://raw.fastgit.org/yfxiongda/scoop/master/bin/install.ps1')
 ```
 
 Once installed, run `scoop help` for instructions.
