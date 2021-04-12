@@ -31,8 +31,11 @@
         <img src="https://img.shields.io/github/license/lukesampson/scoop.svg" alt="License" />
     </a>
 </p>
-
 Scoop is a command-line installer for Windows.
+
+And here is the way to get installed in some country which is not easy to visit github.com.
+
+I’ve altered some code, **just follow the installation guidance provided below**.
 
 ## What does Scoop do?
 
@@ -64,13 +67,10 @@ If you've built software that you'd like others to use, Scoop is an alternative 
 
 ## Installation
 
-Run the following command from your PowerShell to install scoop to its default location (`C:\Users\<user>\scoop`)
+**Run the following command from your PowerShell to install scoop to its default location** (`C:\Users\<user>\scoop`)
 
 ```powershell
-Invoke-Expression (New-Object System.Net.WebClient).DownloadString('https://get.scoop.sh')
-
-# or shorter
-iwr -useb get.scoop.sh | iex
+Invoke-Expression (New-Object System.Net.WebClient).DownloadString('https://raw.fastgit.org/lukesampson/scoop/master/bin/install.ps1')
 ```
 
 Once installed, run `scoop help` for instructions.
