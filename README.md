@@ -65,7 +65,7 @@ If you've built software that you'd like others to use, Scoop is an alternative 
 - [PowerShell 5](https://aka.ms/wmf5download) (or later, include [PowerShell Core](https://docs.microsoft.com/en-us/powershell/scripting/install/installing-powershell-core-on-windows?view=powershell-6)) and [.NET Framework 4.5](https://www.microsoft.com/net/download) (or later)
 - PowerShell must be enabled for your user account e.g. `Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser`
 
-## <span id = “Installation">Installation</span>
+## Installation
 
 **Run the following command from your PowerShell to install scoop to its default location** (`C:\Users\<user>\scoop`)
 
